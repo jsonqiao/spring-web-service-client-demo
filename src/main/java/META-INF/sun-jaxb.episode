@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.7 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2014.09.15 时间 09:36:26 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ws.cdyne.com/WeatherWS/">
+    <schemaBindings map="false">
+      <package name="com.fpi.prj.demo.webservice.wsdl.interfaces"/>
+    </schemaBindings>
+    <bindings scd="tns:GetCityForecastByZIPResponse">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetCityForecastByZIPResponse"/>
+    </bindings>
+    <bindings scd="~tns:ForecastReturn">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.ForecastReturn"/>
+    </bindings>
+    <bindings scd="~tns:ArrayOfWeatherDescription">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.ArrayOfWeatherDescription"/>
+    </bindings>
+    <bindings scd="tns:GetWeatherInformationResponse">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetWeatherInformationResponse"/>
+    </bindings>
+    <bindings scd="~tns:WeatherReturn">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.WeatherReturn"/>
+    </bindings>
+    <bindings scd="tns:GetCityWeatherByZIP">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetCityWeatherByZIP"/>
+    </bindings>
+    <bindings scd="tns:GetCityForecastByZIP">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetCityForecastByZIP"/>
+    </bindings>
+    <bindings scd="tns:GetWeatherInformation">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetWeatherInformation"/>
+    </bindings>
+    <bindings scd="tns:GetCityWeatherByZIPResponse">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.GetCityWeatherByZIPResponse"/>
+    </bindings>
+    <bindings scd="~tns:temp">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.Temp"/>
+    </bindings>
+    <bindings scd="~tns:Forecast">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.Forecast"/>
+    </bindings>
+    <bindings scd="~tns:POP">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.POP"/>
+    </bindings>
+    <bindings scd="~tns:WeatherDescription">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.WeatherDescription"/>
+    </bindings>
+    <bindings scd="~tns:ArrayOfForecast">
+      <class ref="com.fpi.prj.demo.webservice.wsdl.interfaces.ArrayOfForecast"/>
+    </bindings>
+  </bindings>
+</bindings>
+
